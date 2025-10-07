@@ -1,5 +1,5 @@
 public class ATM{
-    account = new BankAccount(500);
+    BankAccount account = new BankAccount(500);
 
     public void handleWithdraw(){
         try{

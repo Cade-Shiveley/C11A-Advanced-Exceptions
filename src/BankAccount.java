@@ -3,7 +3,7 @@ public class BankAccount{
 
     public BankAccount(double balance){
         this.balance = balance;
-
+    }
     public void withdraw(double normal) throws NegativeBalanceException {
         if (normal > balance) {
             throw new NegativeBalanceException(0-balance);
