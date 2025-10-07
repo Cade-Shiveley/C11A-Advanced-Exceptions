@@ -17,7 +17,7 @@ public class BankAccount{
 
     public void quickWithdraw(double quick) throws NegativeBalanceException{
         if (quick > balance){
-            throw new NegativeBalanceException;
+            throw new NegativeBalanceException();
         }
         else{
             balance = balance - quick;
