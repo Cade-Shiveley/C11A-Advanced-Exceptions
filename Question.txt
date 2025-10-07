@@ -1,0 +1,5 @@
+Q:What are 3 good practices related to exception handling?
+A: 3 Good practices related to exception handling that I learned through research are
+1. Create custom exception classes when the time is right for that to make code clearer and easier to read
+2. Don't make an exception that sends a general or no message becasue that's not helpful
+3. Don't make excpetions that are too generalized on what it can catch becasue that's also not helpful
