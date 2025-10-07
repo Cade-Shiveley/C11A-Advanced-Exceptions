@@ -6,7 +6,7 @@ public class BankAccount{
     }
     public void withdraw(double normal) throws NegativeBalanceException {
         if (normal > balance) {
-            throw new NegativeBalanceException(0-balance);
+            throw new NegativeBalanceException(balance-normal);
         }
         else{
             balance = balance - normal;
